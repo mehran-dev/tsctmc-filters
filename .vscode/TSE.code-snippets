@@ -1,0 +1,2033 @@
+{
+	//========== TSE CODE ===========
+	// CREATE BY MOSTAFA EJARESTAGHI 
+	// NAME : TSE PROGRAMING 
+	// DATE : 13990427
+	// V : 1.1.1
+	// TEL : 09119542983
+	// -----WWW.HOOSHEFAAL.IR----- 
+	
+	
+	"TSE CODE 1": {
+	"prefix": "TSE (pc) PRICE CLOSE",
+	"scope": "javascript,typescript",
+	"body": [
+	"(pc)",
+	
+	],
+	"description": ["قیمت پایانی"
+	,"www.hooshefaal.ir"
+	]
+	},
+	
+	"TSE CODE 2": {
+	"prefix": "TSE (pf) PRICE FIRST",
+	"scope": "javascript,typescript",
+	"body": [
+	"(pf)",
+	],
+	"description": ["اولین قیمت"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 3": {
+	"prefix": "TSE (pl) PRICE LAST",
+	"scope": "javascript,typescript",
+	"body": [
+	"(pl)",
+	
+	],
+	"description": ["آخرین قیمت"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 4": {
+	"prefix": "TSE (py) PRICE Yesterday",
+	"scope": "javascript,typescript",
+	"body": [
+	"(py)",
+	
+	],
+	"description": ["قیمت دیروز"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 5": {
+	"prefix": "TSE (pmin) PRICE MIN",
+	"scope": "javascript,typescript",
+	"body": [
+	"(pmin)",
+	
+	],
+	"description": ["کمترین قیمت"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 6": {
+	"prefix": "TSE (pmax) PRICE MAX",
+	"scope": "javascript,typescript",
+	"body": [
+	"(pmax)",
+	
+	],
+	"description": ["بیشترین قیمت"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 7": {
+	"prefix": "TSE (plc) Change the latest price",
+	"scope": "javascript,typescript",
+	"body": [
+	"(plc)",
+	
+	],
+	"description": ["تغییر اخرین قیمت"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 8": {
+	"prefix": "TSE (plp) Percentage change of the latest price",
+	"scope": "javascript,typescript",
+	"body": [
+	"(plp)",
+	
+	],
+	"description": ["درصد تغییر اخرین قیمت"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 9": {
+	"prefix": "TSE (pcc) Close price change",
+	"scope": "javascript,typescript",
+	"body": [
+	"(pcc)",
+	
+	],
+	"description": ["تغییر قیمت پایانی"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 10": {
+	"prefix": "TSE (pcp) Percentage of final price change",
+	"scope": "javascript,typescript",
+	"body": [
+	"(pcp)",
+	
+	],
+	"description": ["درصد تغییر قیمت پایانی"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 11": {
+	"prefix": "TSE (eps) Earnings per share",
+	"scope": "javascript,typescript",
+	"body": [
+	"(eps)",
+	
+	],
+	"description": ["سود هر سهم"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 12": {
+	"prefix": "TSE (pe) PRICE / EPS",
+	"scope": "javascript,typescript",
+	"body": [
+	"(pe)",
+	
+	],
+	"description": ["قیمت تقسیم بر هر سهم"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 13": {
+	"prefix": "TSE (tmin) MIN threshold",
+	"scope": "javascript,typescript",
+	"body": [
+	"(tmin)",
+	
+	],
+	"description": ["آستانه مجاز پایین"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 14": {
+	"prefix": "TSE (tmax)  MAX threshold",
+	"scope": "javascript,typescript",
+	"body": [
+	"(tmax)",
+	
+	],
+	"description": ["آستانه مجاز بالا"
+	,"www.hooshefaal.ir"
+	]
+	},
+	
+	"TSE CODE 15": {
+	"prefix": "TSE (z) ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(z)",
+	
+	],
+	"description": ["تعداد سهام"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 16": {
+	"prefix": "TSE (mv)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(mv)",
+	
+	],
+	"description": ["ارزش بازار"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 17": {
+	"prefix": "TSE (pd1)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(pd1)",
+	
+	],
+	"description": ["قیمت خرید سطر اول"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 18": {
+	"prefix": "TSE (zd1) ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(zd1)",
+	
+	],
+	"description": ["تعداد خریدار سطر اول"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 19": {
+	"prefix": "TSE (qd1) ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(qd1)",
+	
+	],
+	"description": ["حجم خرید سطر اول"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 20": {
+	"prefix": "TSE (po1)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(po1)",
+	
+	],
+	"description": ["قیمت فروش سطر اول"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 21": {
+	"prefix": "TSE (zo1)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(zo1)",
+	
+	],
+	"description": ["تعداد فروشنده سطر اول"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 22": {
+	"prefix": "TSE (qo1) ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(qo1)",
+	
+	],
+	"description": ["حجم فروش سطر اول"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 23": {
+	"prefix": "TSE (pd2)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(pd2)",
+	
+	],
+	"description": ["قیمت خرید سطر دوم"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 24": {
+	"prefix": "TSE (zd2)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(zd2)",
+	
+	],
+	"description": ["تعداد خریدار سطر دوم"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 25": {
+	"prefix": "TSE (qd2) ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(qd2)",
+	
+	],
+	"description": ["حجم خرید سطر دوم"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 26": {
+	"prefix": "TSE (po2) ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(po2)",
+	
+	],
+	"description": ["قیمت فروش سطر دوم"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 27": {
+	"prefix": "TSE (zo2)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(zo2)",
+	
+	],
+	"description": ["تعداد فروشنده سطر دوم"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 28": {
+	"prefix": "TSE (qo2)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(qo2)",
+	
+	],
+	"description": ["حجم فروش سطر دوم"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 29": {
+	"prefix": "TSE (pd3)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(pd3)",
+	
+	],
+	"description": ["قیمت خرید سطر سوم"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 30": {
+	"prefix": "TSE (zd3)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(zd3)",
+	
+	],
+	"description": ["تعداد خریدار سطر سوم"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 31": {
+	"prefix": "TSE (qd3) ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(qd3)",
+	
+	],
+	"description": ["حجم خرید سطر سوم"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 32": {
+	"prefix": "TSE (po3) ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(po3)",
+	
+	],
+	"description": ["قیمت فروش سطر سوم"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 33": {
+	"prefix": "TSE (zo3)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(zo3)",
+	
+	],
+	"description": ["تعداد فروشنده سطر سوم"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 34": {
+	"prefix": "TSE (qo3)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(qo3)",
+	
+	],
+	"description": ["حجم فروش سطر سوم"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 35": {
+	"prefix": "TSE (bvol)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(bvol)",
+	
+	],
+	"description": ["حجم مبنا"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 36": {
+	"prefix": "TSE (cs)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(cs)",
+	
+	],
+	"description": ["گروه صنعتی"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 37": {
+	"prefix": "TSE (l18)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(l18)  /// (l18).indexOf(\"x\")==0 ",
+	
+	],
+	"description": ["نمایش نمادهایی که با حرف x شروع می شوند "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 38": {
+	"prefix": "TSE (l30)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(l30)  /// (l30).indexOf(\"x\")!=-1    ",
+	
+	],
+	"description": [" نمایش نمادهایی که نام آنها شامل x می باشد"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 39": {
+	"prefix": "TSE (tno)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(tno)",
+	
+	],
+	"description": ["تعداد معاملات "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 40": {
+	"prefix": "TSE (tvol)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(tvol)",
+	
+	],
+	"description": ["حجم معاملات "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 41": {
+	"prefix": "TSE (tval)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(tval) ",
+	
+	],
+	"description": ["ارزش معاملات "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 42": {
+	"prefix": "TSE HELP OPRATION",
+	"scope": "javascript,typescript",
+	"body": [
+	"// عملگرهای قابل استفاده در فیلتر",
+	"//	+	جمع	(py) + (pl) > 1000 ",
+	"//	-	تفریق	(pl) - (py) > 100",
+	"//	*	ضرب	(tno) * (tvol)",
+	"//	/	تقسیم	(tval) / (tno)",
+	"//	%	باقیمانده تقسیم	(tno) % 10",
+	"//	&&	و	(pl) > 1000 && (pc)>1000",
+	"//	||	یا	(pl) > 1000 || (pc)>1000",
+	"//	!	نقیض	! ( (pl) - (py) > 100)",
+	"//	==	مساوی	(pl) == (pc)",
+	"//	>	بزرگتر	(pl) - (py) > 100",
+	"//	<	کوچکتر	(pl) - (py) < 100",
+	"//	>=	بزرگتر و مساوی	(pl) - (py) >= 100",
+	"//	<=	کوچکتر و مساوی	(pl) - (py) <= 100",
+	"//	!=	مخالف	(pl) != (pc) ",
+	],
+	"description": ["عملگرهای قابل استفاده در فیلتر"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 43": {
+	"prefix": "TSE CMD FUNC VOID  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"true==function() ",
+	"{",
+	"  //------------------COMMAND START----------------------- ",
+	"",
+	"",
+	"",
+	"",
+	"",
+	"",
+	" //-------------------- COMMAND END--------------------- ",
+	"",
+	"}() ",
+	"//=========================END FUNCTION ========================="
+	],
+	"description": ["تابع بدون مقدار بازگشتی"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 44": {
+	"prefix": "TSE CMD FUNC VALUE  ",
+	"scope": "javascript,typescript",
+	"body": [
+	
+	"var MinPrice=function(){",
+	"",
+	"	var min=[ih][0].PriceMin;",
+	"",
+	"	return min;",
+	"};",
+	"//========================END FUNCTION ==========================="
+	],
+	"description": [" تابع با مقدار بازگشتی "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 45": {
+	"prefix": "TSE Math.sqrt(x)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"Math.sqrt(x)	// Returns the square root of x",
+	],
+	"description": ["جذر یا ریشه ی دوم عدد x را برمی گرداند"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 46": {
+	"prefix": "TSE Math.round(x)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"Math.round(x)	// Rounds x to the nearest integer	 ",
+	],
+	"description": ["x را به نزدیک ترین عدد صحیح به آن گرد می کند"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 47": {
+	"prefix": "TSE Math.pow(x,y)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"Math.pow(x,y)	// Returns the value of x to the power of y	 ",
+	],
+	"description": ["x را به توان y برده و مقدار آن را برمی گرداند"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 48": {
+	"prefix": "TSE Math.min(x,y,z,...,n)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"Math.min(x,y,z,...,n) //	Returns the number with the lowest value	",
+	],
+	"description": ["کوچکترین عدد که به عنوان پارامتر پاس داده شده را بر می گرداند"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 49": {
+	"prefix": "TSE Math.max(x,y,z,...,n)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"Math.max(x,y,z,...,n)	// Returns the number with the highest value	",
+	],
+	"description": ["بزرگترین عدد که به عنوان آرگومان ارسال شده را برمی گرداند"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 50": {
+	"prefix": "TSE Math.log(x)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"Math.log(x)	// Returns the natural logarithm (base E) of x	 ",
+	],
+	"description": ["لگاریتم طبیعی x را بر مبنای عدد e بر می گرداند"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 51": {
+	"prefix": "TSE Math.floor(x)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"Math.floor(x)  //Returns x, rounded downwards to the nearest integer	 ",
+	],
+	"description": ["یک عدد را به پایین گرده کرده و نزدیکترین عدد صحیح به آن را برمی گرداند."
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 52": {
+	"prefix": "TSE Math.exp(x)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"Math.exp(x) // Returns the value of E^x	 ",
+	],
+	"description": ["مقدار عدد Ex را برمی گرداند"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 53": {
+	"prefix": "TSE  Math.ceil(x) ",
+	"scope": "javascript,typescript",
+	"body": [
+	"Math.ceil(x) //Returns x, rounded upwards to the nearest integer	",
+	],
+	"description": ["این متد یک عدد را به بالا گرد کرده و نزدیکترین عدد صحیح (integer) به آن را برمی گرداند."
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 54": {
+	"prefix": "TSE Math.abs(x)  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"Math.abs(x) //Returns the absolute value of x	 ",
+	],
+	"description": ["قدر مطلق"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 55": {
+	"prefix": "TSE H.PriceYesterday  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"[ih][n].PriceYesterday ",
+	],
+	"description": ["	قیمت روز قبل در n روز قبل	  "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 56": {
+	"prefix": "TSE H.PriceMax  ",
+	"scope": "javascript,typescript",
+	"body": [
+	" [ih][n].PriceMax",
+	],
+	"description": ["بیشترین قیمت در n روز قبل	 "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 57": {
+	"prefix": "TSE  H.PriceMin ",
+	"scope": "javascript,typescript",
+	"body": [
+	" [ih][n].PriceMin",
+	],
+	"description": ["کمترین قیمت در n روز قبل	 "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 58": {
+	"prefix": "TSE H.QTotCap  ",
+	"scope": "javascript,typescript",
+	"body": [
+	" [ih][n].QTotCap",
+	],
+	"description": ["ارزش معاملات در n روز قبل	  "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 59": {
+	"prefix": "TSE H.QTotTran5J  ",
+	"scope": "javascript,typescript",
+	"body": [
+	" [ih][n].QTotTran5J",
+	],
+	"description": [" حجم معاملات در n روز قبل	 "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 60": {
+	"prefix": "TSE H.ZTotTran  ",
+	"scope": "javascript,typescript",
+	"body": [
+	" [ih][n].ZTotTran",
+	],
+	"description": [" 	تعداد معاملات در n روز قبل	 "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 61": {
+	"prefix": "TSE H.PDrCotVal  ",
+	"scope": "javascript,typescript",
+	"body": [
+	" [ih][n].PDrCotVal",
+	],
+	"description": [" 	قیمت آخرین معامله در n روز قبل	"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 62": {
+	"prefix": "TSE  H.PClosing ",
+	"scope": "javascript,typescript",
+	"body": [
+	" [ih][n].PClosing",
+	],
+	"description": ["قیمت پایانی در n روز قبل	 "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 63": {
+	"prefix": "TSE H.length  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"[ih].length ",
+	],
+	"description": [" تعداد روز های سابقه معاملات"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 64": {
+	"prefix": "TSE H.PriceFirst  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"[ih][n].PriceFirst",
+	],
+	"description": ["اولین قیمت در n روز قبل	"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 65": {
+	"prefix": "TSE CT (ct).Sell_N_Volume  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(ct).Sell_N_Volume",
+	],
+	"description": ["	حجم فروش حقوقی	 "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 66": {
+	"prefix": "TSE CT (ct).Sell_I_Volume  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(ct).Sell_I_Volume",
+	],
+	"description": ["حجم فروش حقیقی	"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 67": {
+	"prefix": "TSE CT (ct).Sell_CountN  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(ct).Sell_CountN",
+	],
+	"description": ["تعداد فروشنده حقوقی	"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 68": {
+	"prefix": "TSE CT (ct).Sell_CountI  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(ct).Sell_CountI",
+	],
+	"description": ["تعداد فروشنده حقیقی	 "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 69": {
+	"prefix": "TSE CT (ct).Buy_N_Volume  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(ct).Buy_N_Volume",
+	],
+	"description": ["حجم خرید حقوقی	 "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 70": {
+	"prefix": "TSE CT (ct).Buy_I_Volume  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(ct).Buy_I_Volume",
+	],
+	"description": ["حجم خرید حقیقی	 "
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 71": {
+	"prefix": "TSE CT (ct).Buy_CountN  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(ct).Buy_CountN",
+	],
+	"description": ["تعداد خریدار حقوقی	"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 72": {
+	"prefix": "TSE CT (ct).Buy_CountI  ",
+	"scope": "javascript,typescript",
+	"body": [
+	"(ct).Buy_CountI",
+	],
+	"description": ["تعداد خریدار حقیقی	"
+	,"www.hooshefaal.ir"
+	]
+	},
+	
+	"TSE CODE 73": {
+	"prefix": "TSE is [is1]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is1]",
+	],
+	"description": ["میانگین ارزش معاملات در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 74": {
+	"prefix": "TSE is [is2]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is2]",
+	],
+	"description": ["میانگین ارزش معاملات در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 75": {
+	"prefix": "TSE is [is3]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is3]",
+	],
+	"description": ["رتبه ارزش معاملات در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 76": {
+	"prefix": "TSE is [is4]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is4]",
+	],
+	"description": ["رتبه ارزش معاملات در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 77": {
+	"prefix": "TSE is [is5]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is5]",
+	],
+	"description": ["میانگین حجم معاملات در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 78": {
+	"prefix": "TSE is [is6]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is6]",
+	],
+	"description": ["میانگین حجم معاملات در 12 ماه گذشت"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 79": {
+	"prefix": "TSE is [is7]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is7]",
+	],
+	"description": ["رتبه حجم معاملات در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 80": {
+	"prefix": "TSE is [is8]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is8]",
+	],
+	"description": ["رتبه حجم معاملات در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 81": {
+	"prefix": "TSE is [is9]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is9]",
+	],
+	"description": ["میانگین دفعات معاملات روزانه در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 82": {
+	"prefix": "TSE is [is10]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is10]",
+	],
+	"description": ["میانگین دفعات معاملات روزانه در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 83": {
+	"prefix": "TSE is [is11]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is11]",
+	],
+	"description": ["رتبه دفعات معاملات روزانه در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 84": {
+	"prefix": "TSE is [is12]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is12]",
+	],
+	"description": ["رتبه دفعات معاملات روزانه در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 85": {
+	"prefix": "TSE is [is13]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is13]",
+	],
+	"description": ["قیمت میانگین وزنی آخرین روز - بدون دخالت حجم مبنا"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 86": {
+	"prefix": "TSE is [is14]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is14]",
+	],
+	"description": ["قیمت میانگین وزنی آخرین روز - با دخالت حجم مبنا"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 87": {
+	"prefix": "TSE is [is15]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is15]",
+	],
+	"description": ["ارزش معاملات آخرین روز"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 88": {
+	"prefix": "TSE is [is16]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is16]",
+	],
+	"description": ["حجم معاملات آخرین روز"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 89": {
+	"prefix": "TSE is [is17]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is17]",
+	],
+	"description": ["دفعات معاملات در آخرین روز"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 90": {
+	"prefix": "TSE is [is18]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is18]",
+	],
+	"description": ["تعداد روزهای منفی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 91": {
+	"prefix": "TSE is [is19]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is19]",
+	],
+	"description": ["تعداد روزهای منفی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 92": {
+	"prefix": "TSE is [is20]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is20]",
+	],
+	"description": ["درصد روزهای منفی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 93": {
+	"prefix": "TSE is [is21]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is21]",
+	],
+	"description": ["درصد روزهای منفی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 94": {
+	"prefix": "TSE is [is22]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is22]",
+	],
+	"description": ["رتبه روزهای منفی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 95": {
+	"prefix": "TSE is [is23]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is23]",
+	],
+	"description": ["رتبه روزهای منفی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	
+	"TSE CODE 96": {
+	"prefix": "TSE is [is24]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is24]",
+	],
+	"description": ["روزهای بدون معامله در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 97": {
+	"prefix": "TSE is [is25]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is25]",
+	],
+	"description": ["روزهای بدون معامله در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 98": {
+	"prefix": "TSE is [is26]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is26]",
+	],
+	"description": ["تعداد روزهای مثبت در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 99": {
+	"prefix": "TSE is [is27]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is27]",
+	],
+	"description": ["تعداد روزهای مثبت در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 100": {
+	"prefix": "TSE is [is28]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is28]",
+	],
+	"description": ["درصد روزهای مثبت در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 101": {
+	"prefix": "TSE is [is29]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is29]",
+	],
+	"description": ["درصد روزهای مثبت در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 102": {
+	"prefix": "TSE is [is30]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is30]",
+	],
+	"description": ["رتبه روزهای مثبت در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 103": {
+	"prefix": "TSE is [is31]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is31]",
+	],
+	"description": ["رتبه روزهای مثبت در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 104": {
+	"prefix": "TSE is [is32]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is32]",
+	],
+	"description": ["روزهای با معامله در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 105": {
+	"prefix": "TSE is [is33]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is33]",
+	],
+	"description": ["روزهای با معامله در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 106": {
+	"prefix": "TSE is [is34]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is34]",
+	],
+	"description": ["رتبه روزهای با معامله در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 107": {
+	"prefix": "TSE is [is35]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is35]",
+	],
+	"description": ["رتبه روزهای با معامله در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 108": {
+	"prefix": "TSE is [is36]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is36]",
+	],
+	"description": ["ارزش شرکت در آخرین روز"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 109": {
+	"prefix": "TSE is [is37]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is37]",
+	],
+	"description": ["رتبه ارزش شرکت در آخرین روز"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 110": {
+	"prefix": "TSE is [is38]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is38]",
+	],
+	"description": ["تعداد روزهای باز در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 111": {
+	"prefix": "TSE is [is39]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is39]",
+	],
+	"description": ["تعداد روزهای باز در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 112": {
+	"prefix": "TSE is [is40]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is40]",
+	],
+	"description": ["درصد روزهای باز در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 113": {
+	"prefix": "TSE is [is41]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is41]",
+	],
+	"description": ["درصد روزهای باز در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 114": {
+	"prefix": "TSE is [is42]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is42]",
+	],
+	"description": ["رتبه روزهای باز در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 115": {
+	"prefix": "TSE is [is43]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is43]",
+	],
+	"description": ["رتبه روزهای باز در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 116": {
+	"prefix": "TSE is [is44]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is44]",
+	],
+	"description": ["تعداد روزهای بسته در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 117": {
+	"prefix": "TSE is [is45]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is45]",
+	],
+	"description": ["تعداد روزهای بسته در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 118": {
+	"prefix": "TSE is [is46]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is46]",
+	],
+	"description": ["درصد روزهای بسته در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 119": {
+	"prefix": "TSE is [is47]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is47]",
+	],
+	"description": ["درصد روزهای بسته در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 120": {
+	"prefix": "TSE is [is48]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is48]",
+	],
+	"description": ["رتبه روزهای بسته در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 121": {
+	"prefix": "TSE is [is49]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is49]",
+	],
+	"description": ["رتبه روزهای بسته در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 122": {
+	"prefix": "TSE is [is50]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is50",
+	],
+	"description": ["میانگین حجم خرید حقیقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 123": {
+	"prefix": "TSE is [is51]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is51]",
+	],
+	"description": ["میانگین حجم خرید حقیقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 124": {
+	"prefix": "TSE is [is52]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is52]",
+	],
+	"description": ["رتبه حجم خرید حقیقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 125": {
+	"prefix": "TSE is [is53]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is53]",
+	],
+	"description": ["رتبه حجم خرید حقیقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 126": {
+	"prefix": "TSE is [is54]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is54]",
+	],
+	"description": ["میانگین حجم خرید حقوقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 127": {
+	"prefix": "TSE is [is55]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is55]",
+	],
+	"description": ["میانگین حجم خرید حقوقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 128": {
+	"prefix": "TSE is [is56]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is56]",
+	],
+	"description": ["رتبه حجم خرید حقوقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 129": {
+	"prefix": "TSE is [is57]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is57]",
+	],
+	"description": ["رتبه حجم خرید حقوقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 130": {
+	"prefix": "TSE is [is58]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is58]",
+	],
+	"description": ["میانگین تعداد خریدار حقیقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 131": {
+	"prefix": "TSE is [is59]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is59]",
+	],
+	"description": ["میانگین تعداد خریدار حقیقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 132": {
+	"prefix": "TSE is [is60]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is60]",
+	],
+	"description": ["رتبه تعداد خریدار حقیقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 133": {
+	"prefix": "TSE is [is61]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is61]",
+	],
+	"description": ["رتبه تعداد خریدار حقیقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 134": {
+	"prefix": "TSE is [is62]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is62]",
+	],
+	"description": ["میانگین تعداد خریدار حقوقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 135": {
+	"prefix": "TSE is [is63]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is63]",
+	],
+	"description": ["میانگین تعداد خریدار حقوقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 136": {
+	"prefix": "TSE is [is64]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is64]",
+	],
+	"description": ["رتبه تعداد خریدار حقوقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 137": {
+	"prefix": "TSE is [is65]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is65]",
+	],
+	"description": ["رتبه تعداد خریدار حقوقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 138": {
+	"prefix": "TSE is [is66]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is66]",
+	],
+	"description": ["میانگین تعداد خریداران در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 139": {
+	"prefix": "TSE is [is67]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is67]",
+	],
+	"description": ["میانگین تعداد خریداران در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 140": {
+	"prefix": "TSE is [is68]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is68]",
+	],
+	"description": ["رتبه تعداد خریداران در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 141": {
+	"prefix": "TSE is [is69]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is69]",
+	],
+	"description": ["رتبه تعداد خریداران در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 142": {
+	"prefix": "TSE is [is70]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is70]",
+	],
+	"description": ["میانگین حجم فروش حقیقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 143": {
+	"prefix": "TSE is [is71]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is71]",
+	],
+	"description": ["میانگین حجم فروش حقیقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 144": {
+	"prefix": "TSE is [is72]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is72]",
+	],
+	"description": ["رتبه حجم فروش حقیقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 145": {
+	"prefix": "TSE is [is73]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is73]",
+	],
+	"description": ["رتبه حجم فروش حقیقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 146": {
+	"prefix": "TSE is [is74]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is74]",
+	],
+	"description": ["میانگین حجم فروش حقوقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 147": {
+	"prefix": "TSE is [is75]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is75]",
+	],
+	"description": ["میانگین حجم فروش حقوقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 148": {
+	"prefix": "TSE is [is76]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is76]",
+	],
+	"description": ["رتبه حجم فروش حقوقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 149": {
+	"prefix": "TSE is [is77]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is77]",
+	],
+	"description": ["رتبه حجم فروش حقوقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 150": {
+	"prefix": "TSE is [is78]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is78]",
+	],
+	"description": ["میانگین تعداد فروشنده حقیقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 151": {
+	"prefix": "TSE is [is79]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is79]",
+	],
+	"description": ["میانگین تعداد فروشنده حقیقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 152": {
+	"prefix": "TSE is [is80]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is80]",
+	],
+	"description": ["رتبه تعداد فروشنده حقیقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 153": {
+	"prefix": "TSE is [is81]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is81]",
+	],
+	"description": ["رتبه تعداد فروشنده حقیقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 154": {
+	"prefix": "TSE is [is82]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is82]",
+	],
+	"description": ["میانگین تعداد فروشنده حقوقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 155": {
+	"prefix": "TSE is [is83]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is83]",
+	],
+	"description": ["میانگین تعداد فروشنده حقوقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 156": {
+	"prefix": "TSE is [is84]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is84]",
+	],
+	"description": ["رتبه تعداد فروشنده حقوقی در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 157": {
+	"prefix": "TSE is [is85]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is85]",
+	],
+	"description": ["رتبه تعداد فروشنده حقوقی در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 158": {
+	"prefix": "TSE is [is86]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is86]",
+	],
+	"description": ["میانگین تعداد فروشندگان در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 159": {
+	"prefix": "TSE is [is87]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is87]",
+	],
+	"description": ["میانگین تعداد فروشندگان در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 160": {
+	"prefix": "TSE is [is88]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is88]",
+	],
+	"description": ["رتبه تعداد فروشندگان در 3 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 161": {
+	"prefix": "TSE is [is89]",
+	"scope": "javascript,typescript",
+	"body": [
+	"[is89]",
+	],
+	"description": ["رتبه تعداد فروشندگان در 12 ماه گذشته"
+	,"www.hooshefaal.ir"
+	]
+	},
+	
+	"TSE CODE 162": {
+		"prefix": "TSE CF (cfield0)",
+		"scope": "javascript,typescript",
+		"body": [
+		"(cfield0)",
+		],
+		"description": ["فیلد نمایش صفر"
+		,"www.hooshefaal.ir"
+	]
+	},
+		"TSE CODE 163": {
+			"prefix": "TSE CF (cfield1)",
+			"scope": "javascript,typescript",
+			"body": [
+			"(cfield1)",
+			],
+			"description": ["فیلد نمایش یک"
+			,"www.hooshefaal.ir"
+	]
+	},
+			"TSE CODE 164": {
+				"prefix": "TSE CF (cfield2)",
+				"scope": "javascript,typescript",
+				"body": [
+				"(cfield2)",
+				],
+				"description": ["فبلد نمایش دو"
+				,"www.hooshefaal.ir"
+	]
+	},
+"TSE CODE 165": {
+"prefix": "TSE FILTER RSI",
+"scope": "javascript,typescript",
+"body": [
+	"// RSI SHOW VALUE IN (cfield0) -- BEGIN ",
+	"true==function()",
+	"{",
+	"",
+	"var CalculateRSI =function(period){",
+	"",
+	"var len=20;",
+	"",
+	"for (var i = 0; i < len ; i++) {",
+	"var rec=[ih][len-1-i];",
+	"",
+	"var change=rec.PClosing-rec.PriceYesterday;",
+	"",
+	"if (change> 0) {",
+	"rec.gain=change;",
+	"rec.loss=0;",
+	"}",
+	"else",
+	"{",
+	"rec.gain=0;",
+	"rec.loss=-change;",
+	"}",
+	"}",
+	"",
+	"// Calculate first \"average gain\" and \"avera\" ge loss",
+	"var gainSum=0;",
+	"var lossSum=0;",
+	"",
+	"for (var i = 0; i < period; i++) {",
+	"var rec=[ih][len-1-i];",
+	"gainSum += rec.gain;",
+	"lossSum += rec.loss;",
+	"}",
+	"",
+	"var averageGain=gainSum /period;",
+	"var averageLoss=lossSum / period;",
+	"",
+	"// Calculate subsequent \"average gain\" and \",average loss\" values ",
+	"for (var i = period + 1; i < len; i++) {",
+	"var rec=[ih][len-1-i];",
+	"",
+	"averageGain=(averageGain* (period - 1) + rec.gain) / period ;",
+	"averageLoss=(averageLoss* (period - 1) + rec. loss)/  period;",
+	"",
+	"rec.averageGain=averageGain;",
+	"rec.averageLoss=averageLoss;",
+	"}",
+	"",
+	"// Calculate RSI",
+	"var RS = 0; // Relative strength",
+	"var RSIndex = 0; // Relative strength index",
+	"",
+	"for (var i = period + 1; i < len; i++) {",
+	"var rec=[ih][len-1-i];",
+	"",
+	"RS = rec.averageGain/ rec.averageLoss;",
+	"RSIndex = 100 - 100 / (1 + RS);",
+	"rec.rsi=RSIndex;",
+	"}",
+	"};",
+	"",
+	"if(typeof [ih][0].rsi==\"undefined\")",
+	"CalculateRSI(14);",
+	"",
+	"(cfield0)=Math.round( [ih][0].rsi);",
+	"",
+	"return true;",
+	"",
+	"}()",
+	"// RSI SHOW VALUE IN (cfield0) -- END ",
+	"// -----WWW.HOOSHEFAAL.IR----- ",
+],
+"description": ["RSI SHOW VALUE IN (cfield0)"
+,"www.hooshefaal.ir"
+	]
+	},
+				
+"TSE CODE 166": {
+	"prefix": "TSE FILTER Wiliams R 14",
+	"scope": "javascript,typescript",
+	"body": [
+"// Wiliams R 14 SHOW VALUE IN (cfield2) -- BEGIN ",
+"true == function ()",
+"{",
+"var max = [ih][0].PriceMax;",
+"var min = [ih][0].PriceMin;",
+"",
+"for (var ipos = 0; ipos < 14; ipos++)",
+"{  if (max < [ih][ipos].PriceMax)",
+"",
+"max = [ih][ipos].PriceMax; }",
+"",
+"",
+"for (var ipos = 0; ipos < 14; ipos++)",
+"{  if (min > [ih][ipos].PriceMin)",
+"min = [ih][ipos].PriceMin; }",
+"",
+"",
+"R = (max - (pc)) /(max - min) * -100;",
+"",
+"(cfield2)= Math.round(R);",
+"",
+"return true;",
+"}",
+"()",
+"// Wiliams R 14 SHOW VALUE IN (cfield2) -- END ",
+"// -----WWW.HOOSHEFAAL.IR----- ",
+
+	],
+	"description": ["Wiliams R 14 SHOW VALUE IN (cfield2)"
+	,"www.hooshefaal.ir"
+	]
+	},	
+				
+	"TSE CODE 167": {
+		"prefix": "TSE FILTER Stoch Astic 14",
+		"scope": "javascript,typescript",
+		"body": [
+			"// Stoch Astic 14 SHOW VALUE IN (cfield1) AND (cfield2) -- BEGIN",
+			"true == function ()",
+			"{",
+			"var max = [ih][0].PriceMax;",
+			"var min = [ih][0].PriceMin;",
+			"",
+			"for (var ipos = 0; ipos < 14; ipos++)",
+			"{  if (max < [ih][ipos].PriceMax) max = [ih][ipos].PriceMax; }",
+			"",
+			"for (var ipos = 0; ipos < 14; ipos++)",
+			"{  if (min > [ih][ipos].PriceMin) min = [ih][ipos].PriceMin; }",
+			"",
+			"",
+			"K = ((((pc)-min) / (max - min)) * 100);",
+			"",
+			"D=(K +((([ih][0].PClosing-min)/(max - min))*100)+((([ih][1].PClosing-min)/(max-min))*100))/3;",
+			"",
+			"(cfield1)= Math.round(K);",
+			"",
+			"(cfield2)= Math.round(D);",
+			"",
+			"return true;",
+			"}",
+			"()",
+			"// Stoch Astic 14 SHOW VALUE IN (cfield1) AND (cfield2) -- END",
+			"// -----WWW.HOOSHEFAAL.IR----- ",
+		],
+		"description": ["Stoch Astic 14 SHOW VALUE IN (cfield1) AND (cfield2)"
+		,"www.hooshefaal.ir"
+	]
+	},		
+		"TSE CODE 168": {
+			"prefix": "TSE FILTER CCI 14",
+			"scope": "javascript,typescript",
+			"body": [
+				" // CCI 14  SHOW VALUE IN (cfield0) -- BEGIN",
+				"true==function(){",
+				"var i,j,tp,smtp,nd,smnd,cci;",
+				"var stp=0;",
+				"var snd=0;",
+				"for(i=0;i<14;i++)",
+				"{",
+				"j= 13 - i;",
+				"tp=([ih][j].PriceMax + [ih][j].PClosing + [ih][j].PriceMin) / 3;",
+				"stp=stp+ tp;",
+				"smtp=stp/(i+1);",
+				"nd=Math.abs(smtp - tp);",
+				"snd=snd+ nd;",
+				"smnd=snd / (i+1);",
+				"cci= ((tp-smtp) /smnd) /0.015 ;",
+				"}",
+				"(cfield0)=Math.round(cci);",
+				"return (1)",
+				"}()",
+				"// CCI 14  SHOW VALUE IN (cfield0) -- END",
+				"// -----WWW.HOOSHEFAAL.IR----- ",
+			],
+			"description": ["CCI 14  SHOW VALUE IN (cfield0)"
+			,"www.hooshefaal.ir"
+	]
+	},
+	"TSE CODE 169": {
+		"prefix": "TSE CMD return true",
+		"scope": "javascript,typescript",
+		"body": [
+		"return true;"
+		
+		],
+		"description": ["نمایش نماد در دیدبان"
+		,"www.hooshefaal.ir"
+		]
+		},
+		"TSE CODE 170": {
+			"prefix": "TSE CMD return false",
+			"scope": "javascript,typescript",
+			"body": [
+			"return false;"
+			
+			],
+			"description": ["عدم نمایش نماد در دیدبان "
+			,"www.hooshefaal.ir"
+			]
+			},
+			"TSE CODE 171": {
+				"prefix": "TSE CMD FOR",
+				"scope": "javascript,typescript",
+				"body": [
+					"for (var ${index} = 0; ${index} < ${array}.length; ${index}++) {",
+					"	//-------- YOUR COMMAND BEGIN ---------- ",
+					"	",
+					"	",
+					"	//-------- YOUR COMMAND END ---------- ",
+					"}"
+					"//=================END FOR ================"
+				],
+				"description": ["LOOP COMMAND"
+				,"www.hooshefaal.ir"
+				]
+				},
+				"TSE CODE 172": {
+					"prefix": "TSE CMD IF",
+					"scope": "javascript,typescript",
+					"body": [
+					"	if (${index}> 0) { ",
+					"	//-------- YOUR COMMAND BEGIN ---------- ",
+					"	",
+					"	",
+					"	//-------- YOUR COMMAND END ---------- ",
+					"		 }",
+					"//==================END IF ================"
+					
+					],
+					"description": ["IF COMMAND"
+					,"www.hooshefaal.ir"
+					]
+					},
+					"TSE CODE 173": {
+						"prefix": "TSE CMD VAR INT",
+						"scope": "javascript,typescript",
+						"body": [
+						" var ${index}=0;"
+						],
+						"description": ["VAR INT COMMAND"
+						,"www.hooshefaal.ir"
+						]
+						},
+						"TSE CODE 174": {
+							"prefix": "TSE CMD VAR STRING",
+							"scope": "javascript,typescript",
+							"body": [
+							" var ${index}=\"\" ;"
+							],
+							"description": ["VAR STRING COMMAND"
+							,"www.hooshefaal.ir"
+							]
+							},
+							"TSE CODE 175": {
+								"prefix": "TSE START",
+								"scope": "javascript,typescript",
+								"body": [
+								"// Filter Name :",
+ 								"// User: ",
+								"// Date: ",
+ 								"// description : ",
+								],
+								"description": ["START"
+								,"www.hooshefaal.ir"
+								]
+								},
+								"TSE CODE 176": {
+									"prefix": "TSE CMD COMMENT SECTION",
+									"scope": "javascript,typescript",
+									"body": [
+									"// ------------ SUBJECT-------------",
+									 "// description : ",
+									 "// --------------END---------------",
+									],
+									"description": ["COMMENT SECTION"
+									,"www.hooshefaal.ir"
+									]
+									},
+									"TSE CODE 177": {
+										"prefix": "TSE HELP KEYWORD",
+										"scope": "javascript,typescript",
+										"body": [
+										"// ------------TSE HELP KEYWORD-------------",
+										 "// TSE CMD :دستورات اصلی",
+										 "// TSE (   : فیلد های ساده",
+										 "// TSE IS  :آمار کلیدی",
+										 "// TSE H   :سابقه معاملات",
+										 "// TSE MATH: توابع ریاضی",
+										 "// TSE CT  :حقیقی و حقوقی",
+										 "// TSE FILTER : فیلتر های آماده",
+										 "// --------------END---------------",
+										],
+										"description": ["COMMENT SECTION"
+										,"www.hooshefaal.ir"
+										]
+										},
+	
+	}
+	
+	

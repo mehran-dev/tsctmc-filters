@@ -1,0 +1,6 @@
+{
+    "editor.defaultFormatter": "oderwat.indent-rainbow",
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
+}
